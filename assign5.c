@@ -64,7 +64,7 @@ int main(void) {
 		fprintf(ofp, "Name: %s %s \n", prof[i].first, prof[i].last);
 		fprintf(ofp, "Gross Pay: %.2lf \n", prof[i].gross);
 		fprintf(ofp, "Taxes Withheld: %.2lf\n", prof[i].taxes);
-		fprintf(ofp, "Net Pay: %.2lf\n", (prof[i].gross - prof[i].taxes));
+		fprintf(ofp, "Internet Pay: %.2lf\n", (prof[i].gross - prof[i].taxes));
 	
 	}
 	fclose(ifp);
